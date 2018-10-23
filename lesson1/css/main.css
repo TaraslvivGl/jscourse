@@ -1,0 +1,43 @@
+body{
+    color: black;
+    background-color: white;
+}
+
+div{
+    background-color: floralwhite;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: square;
+    font-size: 20px;
+}
+
+header li a {
+    color: cornflowerblue
+}
+
+fieldset {
+    width: 270px;
+    padding: 15px; 
+}
+
+footer {
+    position: sticky; 
+    bottom: 25px; 
+    padding-left: 10px;
+}
+
+#anchor_img {
+    height: 30px;
+    float: right
+}
+
+.float_center { 
+    margin-left: 150px;
+    margin-right: 150px;
+}
