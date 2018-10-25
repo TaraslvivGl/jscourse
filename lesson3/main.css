@@ -1,0 +1,82 @@
+body {
+    background: orage;
+}
+
+.main{
+    width: 1000px;
+    background: orange;
+    border: 10px solid red;
+    box-sizing: content-box;
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: center
+}
+
+.bg-aliceblue {
+    background: aliceblue
+}
+
+.bg-orange {
+    background: orange
+}
+
+.bg-red {
+    background: red
+}
+
+.bg-green {
+    background: green
+}
+
+.bg-blue {
+    background: blue
+}
+
+.bg-yellow {
+    background: yellow
+}
+
+.bg-pink {
+    background: pink
+}
+
+.bg-black {
+    background: black 
+}
+
+
+.header, .footer {
+    height: 250px
+}
+
+.menu {
+    height: 150px
+}
+
+.left, .center, .right {
+    height: 400px
+}
+
+.w-33 {
+    width: 33.3%
+}
+
+.floar-r {
+    float: right;
+}
+
+.floar-l {
+    float: left;
+}
+
+.clearfix {
+    clear: both
+}
+
+.w-25 {
+    width: 20%
+}
+
+.h-80 {
+    height: 80%
+}
