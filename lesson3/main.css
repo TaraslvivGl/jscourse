@@ -1,0 +1,117 @@
+body {
+    background: black;
+}
+
+.main{
+    width: 1000px;
+    background: orange;
+    border: 5px solid red;
+    box-sizing: content-box;
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: center
+}
+
+.bg-aliceblue {
+    background: aliceblue
+}
+
+.bg-orange {
+    background: orange
+}
+
+.bg-red {
+    background: red
+}
+
+.bg-green {
+    background: green
+}
+
+.bg-blue {
+    background: blue
+}
+
+.bg-yellow {
+    background: yellow
+}
+
+.bg-pink {
+    background: pink
+}
+
+.bg-black {
+    background: black 
+}
+
+
+.header, .footer {
+    height: 250px
+}
+
+.menu {
+    height: 150px
+}
+
+.left, .center, .right {
+    height: 400px
+}
+
+.floar-r {
+    float: right;
+}
+
+.floar-l {
+    float: left;
+}
+
+.clearfix {
+    clear: both
+}
+
+.w-25 {
+    width: 25%
+}
+
+.w-33 {
+    width: 33.3%
+}
+
+.w-50 {
+    width: 50%
+}
+
+.w-80 {
+    width: 80%
+}
+
+.h-40 {
+    height: 40%
+}
+
+.h-60 {
+    height: 60%
+}
+
+.h-70 {
+    height: 70%
+}
+
+.h-80 {
+    height: 80%
+}
+
+.h-100 {
+    height: 100%
+}
+.mx-auto {
+    margin: 0 auto
+}
+
+.py-20 {
+    padding: 20px
+}
+
+.box-border {
+    box-sizing: border-box;
+}
