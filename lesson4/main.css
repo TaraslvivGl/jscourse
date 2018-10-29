@@ -3,6 +3,18 @@
     padding: 0 0
 }
 
+div {
+/*    box-sizing: border-box*/
+}
+
+.w-10 {
+    width: 10%
+}
+
+.w-30 {
+    width: 30%
+}
+
 .w-65 {
     width: 65%
 }
@@ -12,7 +24,7 @@
 }
 
 .w-85 {
-    width: 75%
+    width: 85%
 }
 
 .w-100 {
@@ -43,6 +55,7 @@
 
 .menu2 a {
     font-size: 11pt;
+    color: black
 }
 
 .font-size-11 {
@@ -54,7 +67,38 @@
 }
 
 .bx {
-    border-top: 1px solid gray;
+    border-top: 1pborder-topx solid gray;
     border-bottom: 1px solid gray;
     padding: 10px 0px
 }
+
+.header-slider {
+    border-top: 3px solid red;
+    height: 80px;
+    background: gray;
+    padding: 10px;
+/*    box-sizing: */
+}
+
+.header-slider div {
+    float: left;
+/*    height: 60px;*/
+}
+
+.header-slider-element {
+    border-left: 1px solid white;
+/*    height: 60px;*/
+    width: 25%;
+}
+
+.header-slider-element-arow {
+    width: 15%;
+}
+
+.header-slider-element img {
+    margin: 0 8px 0 5px;
+    width: 105px;
+    height: 65
+    
+}
+
