@@ -1,0 +1,37 @@
+*{
+    margin: 0 0;
+    padding: 0 0
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    background: black;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 2px;
+    padding: 2.5px 0;
+    transition: 0.5s
+}
+
+.menu a:hover {
+    background: green;
+    width: 400px;
+}
+
+.menu li:first-child a:hover {
+    background: pink;
+}
+
+.menu li:nth-child(2n) a:hover {
+    background: blue;
+}
+
+.menu li:last-child a:hover {
+    background: red;
+}
