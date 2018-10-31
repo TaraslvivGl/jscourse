@@ -1,0 +1,56 @@
+table {
+    background: pink;
+    border: 1px solid black;
+}
+
+td {
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;   
+    transition: 1s;
+    text-align: right;
+/*    text-shadow: 2px 2px 8px blue;*/
+}
+
+tr {
+    width: 400px;
+    height: 20px;
+}
+
+td:hover {
+/*    background: green;*/
+/*    font-size: 1.5em;*/
+    border: 1px solid gray;
+    color: aliceblue;
+    cursor: pointer
+/*    text-shadow: 2px 2px 1px white;*/
+/*    text-shadow: 2px 2px 8px white;        */
+/*
+    width: 50px;
+    height: 30px
+*/
+}
+
+tr:nth-child(2n+1) td {
+    height: 0px;
+}
+
+.navigation div {
+    background: black;
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    text-align: center
+/*
+  display: flex;
+  flex-flow: row wrap;
+   This aligns items to the end line on main-axis 
+  justify-content: flex-end;
+*/
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row-reverse wrap-reverse
+}
